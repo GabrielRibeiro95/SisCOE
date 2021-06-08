@@ -1,0 +1,92 @@
+/* /*=========== RESET ==========*/
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+}
+
+/*para remorver linha dos links*/
+a{
+	text-decoration:none;
+}
+
+/*escondedno as ancoras*/
+
+a.links{
+	display:none;
+}
+
+/*classe que envolve o conteúdo*/
+.content{
+	width: 300px;
+	min-height: 360px;
+	margin:0px auto;
+	position: relative;
+}
+
+/*Deixando o cabeçalho bonitinho*/
+h1{
+	font-size: 44px;
+	color: #066a75;
+	padding: 10px 0 15px 0;
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+/*CASO QUERIA ESTILIZAR UM POUCO MAIS COM UMA BARRA ABAIXO DO TEXTO DO H1*/
+h1:after{
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: 15px;
+  background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+  background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+}
+
+/*estilos a mais que não é demais*/
+
+.content p:first-child{
+  margin: 0px;
+}
+
+input {
+  outline: none;
+}
+
+/*estilo dos input*/
+input:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #40E0D0;
+
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+select{
+	width: 95%;
+    margin-top: 4px;
+    padding: 10px;
+    border: 1px solid #40E0D0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.inputT{
+	width: 500px !important ;
+}
+
+/*estilo do botão "entrar" */
